@@ -1,0 +1,12 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main(){
+int a;
+cout<<"Enter number\n";
+cin>>a;
+cout<<"Cube is "<<(a*a*a)<<"\n";
+cout<<"square is "<<(a*a)<<"\n";
+cout<<(power(a,a));
+return 0;
+}
